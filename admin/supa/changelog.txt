@@ -1,0 +1,34 @@
+Version 0.6 --------------------------------------------------------------------
+Implementation:
+Fix aspect ratio computation
+Fix image size when scrolling the applet canvas out of sight
+Methods that are meant to be called from Javascript are now public. Anything else is at least reduced to protected.
+Improve demo.php to reflect current Javascript best practices at least a little bit :)
+
+New parameter/functionality: "pasteonload" = *false*/true
+If there is an image in clipboard while the applet is being loaded, the image gets pasted on applet-start.
+
+New parameter/functionality: "backgroundcolor" = "#RRGGBB"
+Color-String is the usual hex encoded color "#RRGGBB" or "0xRRGGBB", e.g.: "FF01AB"
+
+New methods available for Javascript:
+- int getImageWidth() // return the image width in pixels
+- int getImageHeight() // return the image height in pixels
+- void setClickForPaste(boolean) // dynamically enable/disable the clickForPaste functionality
+- boolean isClickForPaste()
+- void setTrace(boolean) // dynamicall enable/disable tracing to the JS-console
+- boolean isTrace()
+
+Behind the scenes:
+Some refactoring and cleanup
+Reformat all code :)
+Update to Java 1.5 (i.e.: add some @Override)
+Add missing/new eclipse settings to repository
+Bring ant and eclipse project settings together :)
+Merge build.properties into build.xml since I don't like it anymore :)
+
+
+Version 0.5 --------------------------------------------------------------------
+Support google chrome browser (should also fix Apple Mac clients)
+Better support Internet Explorer when detecting if applet has finished loading
+

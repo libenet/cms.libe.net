@@ -1,0 +1,33 @@
+body,td
+{    text-align: left;
+    color: #EEEEEE;
+    font: 80%/1.3em "Trebuchet MS",Verdana,sans-serif;
+    background:#1A1A1A;width:750px;
+
+}
+a {
+    color: #F29450;
+    font-weight: 400;
+    text-decoration: none;
+}
+* {
+    margin: 0;
+    padding: 0;   text-align: left;
+}
+h1 {
+    line-height: 0.9em;
+}
+h2, h3, h4 {
+    color: #FFFFFF;
+    font-weight: normal;
+    margin: 0 0 15px;
+}
+
+	/*images effect*/
+	P img, td img, .nimage img {margin:10px;border:#fff 3px solid;	/*p maybe add a class to only apply the effect to the content*/
+			-moz-box-shadow:    1px 4px 3px 4px #000;
+			-webkit-box-shadow: 1px 4px 3px 4px #000;
+			box-shadow:         1px 4px 3px 4px #000;}
+
+p, table,.feedback p {margin-left:5px;}
+h1,h2,h3,h4 	{margin-top:10px;margin-bottom:4px;}

@@ -1,0 +1,41 @@
+div,tr,table,p,blockquote {margin:0px;padding:0px;}
+body {
+    width:690px;
+    font-family: Arial,Helvetica,sans-serif;
+}
+body, td 	{font-family: Arial,Helvetica,sans-serif; font-size: 12px; color: #777;text-align: left;}/* add width:xxxpx; for tinymce.css*/
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 1.8em;
+}
+
+h3 {
+	font-size: 1.6em;
+}
+
+h1, h2, h3 {
+    color: #000000;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+p, ul, ol {
+    line-height: 180%;
+    margin-top: 0;
+}
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+	p, table,.feedback p {margin-left:5px;} /*p align remove #center for tinymce.css*/
+	 h1,h2,h3,h4 	{margin-top:10px;margin-bottom:4px;}
+
+	P img, td img, .nimage img {margin:10px;border:#fff 3px solid;	/*p maybe add a class to only apply the effect to the content*/
+			-moz-box-shadow:    1px 4px 3px 4px #ccc;
+			-webkit-box-shadow: 1px 4px 3px 4px #ccc;
+			box-shadow:         1px 4px 3px 4px #ccc;}

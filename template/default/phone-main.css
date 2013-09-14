@@ -1,0 +1,57 @@
+/*////////////////////////////////////////////////////////////////////////////
+// Layout for Phones, copy this file phone-main.css together
+// with phone-index.php into a template folder and phones will load an 
+// this Layout
+////////////////////////////////////////////////////////////////////////////*/
+
+
+	/*p global and tinymce add width:xxxpx; for tinymce.css*/
+
+	body 		{-webkit-text-size-adjust: none;}
+
+	h1,h2,h3,h4,h5,#headline-menu,a{color:#085faf;}
+
+	h1 		{font-size:24px;}
+	h2 		{font-size:22px;}
+	h3 		{font-size:20px;}
+	h4 		{font-size:18px;}
+	h5 		{font-size:17px;}
+
+	#headline-menu h2	{margin-top:0px;color:#fff;font-size:20px;}
+	#headline-menu,#prevnext,#headline-menu {background-color: #085faf;}
+	#headline-menu		{height:70px;margin-top:2px;margin-left: auto ;margin-right: auto ;}
+	#headline-menu h1,#headline-menu h1 a{color:#fff; font-size: 30px;margin-left:0px;padding-top:10px;text-shadow: #fff 0px 5px 5px;}
+
+	p,td,div#left ul,#container,div,tr,table,blockquote,body{margin: 0;padding: 0;list-style:none;}
+	#topics 		{float:left;}
+	#center 		{clear:both;}
+	.menul 			{width:200px;}
+	#right h3 		{margin:6px;margin-bottom:0px;}
+	#right ul li a		{width:800px;height:25px;overflow:hidden;}
+	#right ul li 		{font-size:0.9em;margin:5 5 5 7px;padding-left:7px;padding-top:10px;padding-bottom:10px;}
+
+	a 			{text-decoration: none;}
+	#right a.mainmenu_active{text-decoration:none;color:#003;}
+	#mobile 		{background-color: #ddd;}
+	#prevnext 		{color: #fff;}
+	#prevnext a		{color: #fff;}
+
+	/*TOC Table of Contents CSS:*/
+	h1, h2, h3, h4, h5 { position: relative;}
+	a.toc-top-link 	{position: absolute;width: 15px;padding: 4px;margin-left:10px;background:#fff;border-bottom:1px #999 solid;border-right:1px #ddd solid;top: 0;font-size: 7pt;text-align: center;border-radius:5px;-webkit-border-radius:5px;-moz-border-radius:5px;}
+	#toc 		{margin-top:0px;margin-bottom:30px;padding:7px;padding-left: 30px;margin-left:10px;background:#eee;width:300px;float:left;-moz-box-shadow: 1px 3px 2px 3px #ccc;-webkit-box-shadow: 1px 3px 2px 3px #ccc;box-shadow: 1px 3px 2px 3px #ccc;border-radius:2px;-moz-border-radius:2px;-webkit-border-radius:2px;}
+	ol 		{ list-style: upper-alpha;}
+	ol ol 		{ list-style: decimal;}
+	ol ol ol 	{ list-style: lower-roman;}
+	ol ol ol ol 	{ list-style: lower-alpha;}
+
+	/*news*/
+	ul.newest1 	{margin-top:30px;}
+	.newest1 img 	{width:100px;max-height:100px;}
+	.submenu tr td	{width:100px;}
+	.nimage 	{width:120px;height:90px;position:relative;float:left; margin-right:10px;}
+	li.newest1 	{display:block;margin-bottom:20px;float:left;width:100%;}
+	.ndate 		{display:block;position:relative;width:150px;margin-left:120px;border-bottom:#ddd 1px dotted;}
+	.ndesc 		{display:block;}
+	.nlink 		{display:block;}
+

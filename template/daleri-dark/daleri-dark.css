@@ -1,0 +1,170 @@
+/*
+Original design: Daleri Dark (v1.5 - Mar 16th, 2011) - A free xhtml/css website template by Andreas Viklund.
+For more information, see http://andreasviklund.com/templates/daleri-dark/
+*/
+
+/* Body */
+* {margin:0; padding:0;}
+body {background:#1a1a1a url(body-bg.gif) top center repeat-y; color:#eee; font:80% "Trebuchet MS",Verdana,sans-serif; line-height:1.3em; text-align:center; padding-bottom:20px;}
+
+/* Top */
+#top {padding:0; width:960px; margin:10px auto 5px auto;}
+#topleft {width:650px; float:left; margin:0; text-align:left;}
+#topleft h1 {font-size:2.4em; line-height:0.9em; margin:5px 0; padding:0;}
+#topleft h1 a {font-weight:400;}
+#topleft p, #topright p {margin:0 0 5px 0; padding:0; color:#ccc;}
+#topright {width:250px; padding:0; float:right; text-align:right; margin:0;}
+
+/* Searchbox */
+.searchbox {margin:10px 0 10px 0; padding:0;}
+.searchbox label {color:#ddd;}
+.searchbox input {background:#2a2a2a; padding:3px 0 3px 5px; margin:0; width:180px; color:#eee; border:1px solid #888;}
+
+/* Header */
+#header {background: #333 url(front.jpg) top left no-repeat; color:#eee; margin:0 auto 20px auto; padding:0; text-align:left; width:960px; height:200px;}
+#header h2, #header h3 {font-size:1.6em; color:#eee;}
+#headerleft {clear:both; width:240px; height:190px; float:left; padding:9px 0 0 10px; overflow:auto;}
+#headerright p, #headerright ul, #headerright ol, #headerright div, #headerright table {text-align:left; padding:0; margin:0 0 5px 0; color:#eee;}
+#headerleft li {list-style:none; margin:0 0 2px 0;}
+#headerright {width:240px; float:right; height:190px; text-align:right; padding:9px 10px 0 0; overflow:auto;}
+#headerright p, #headerright ul, #headerright ol, #headerright div, #headerright table {text-align:right; padding:0; margin:0 0 5px 0; color:#eee;}
+#headerright li {list-style:none; margin:0 0 2px 0;}
+
+/* Main wrap */
+#wrap {margin:0 auto; padding:0; text-align:left; width:960px;}
+
+/* Headers */
+h2, h3, h4 {margin:15px 0px 5px 0px; color:#fff; font-weight:normal;}
+
+/* Sidebar */
+#sidebar {margin:0 0 5px 0; float:right; width:190px; padding:0;}
+#sidebar h2, #sidebar h3 {font-size:1.6em; padding:2px 0; margin:0 0 8px 0;}
+#sidebar h3, #sidebar h4 {font-size:1.2em; margin:0 0 8px 0;}
+#sidebar p, #sidebar ul ,#sidebar .textwidget,#sidebar form,#sidebar table {margin:0 0 18px 0; padding:0;}
+#sidebar li {list-style:none; margin:0 0 3px;}
+#sidebar ul li a {font-size:1.1em;}
+#sidebar ul ul, #sidebar ul ul ul {list-style:none; margin: 2px 0 0 7px; padding:0;}
+#sidebar ul ul li, #sidebar ul ul ul li {list-style:none; margin:0; padding:0;}
+#sidebar ul ul li a {font-size:0.9em; font-weight:normal; margin:0; padding:0;}
+#sidebar table {width:180px;}
+#sidebar caption {font-size:1.6em; padding:2px 0; margin:0 0 8px 0; text-align:left;}
+
+
+/* Menu buttons */
+#sidebar ul.menubuttons li {list-style:none; width:180px; padding:0; margin:0 0 3px 0;}
+#sidebar ul.menubuttons li a {display:block; padding:3px 0 3px 5px; background-color:#3a3a3a; color:#ccc; border:1px solid #555; border-left:4px solid #666;}
+#sidebar ul.menubuttons li a:hover, #sidebar ul.menubuttons li.current_page_item a {background:#444; border:1px solid #888; border-left:4px solid #f29450;}
+#sidebar ul.menubuttons ul {margin:0; padding:2px 0 0 10px;}
+#sidebar ul.menubuttons ul li {width:170px;}
+#sidebar ul.menubuttons ul li a {font-size:1em; background:#2a2a2a; padding:1px 0 1px 5px;}
+
+/* Content */
+#content {float:left; width:740px; margin-bottom:5px;}
+#content h1 {line-height:0.9em;margin-top:5px;}
+#content h2 {font-size:1.8em; clear:left;line-height:20px;}
+#content h3 {font-size:1.4em; clear:left;}
+#content h2, #content h3 {}
+#content h2 a, #content h3 a {font-weight:normal;}
+#content p {margin:0 0 0 5px;}
+#content div.postnav {padding:10px 0;}
+#content div.postnavleft {width:48%; float:left;}
+#content div.postnavright {width:48%; float:right; text-align:right;}
+#content ul, #content ol {margin:0 0 18px 30px;}
+#content ul li, #content ol li {margin:0 0 3px;}
+#content ul ul, #content ol ol {margin:5px 0 5px 15px;}
+#content img {margin:10; padding:0;}
+#content img.alignleft {display:inline; float:left; margin:5px 15px 5px 0;}
+#content img.alignright {float:right; margin:5px 0 5px 15px;}
+#content img.aligncenter {display:block; margin:10px auto;}
+#content img.border {border:1px solid #888;}
+#content .post {margin:0 0 30px;}
+#content .timestamp {font-size:1.0em;}
+#content .timestamp a {font-weight:normal;}
+
+/* Footer */
+#footer {clear:both; color:#eee; text-align:center; background-color:#2a2a2a; border:1px solid #555;}
+#footer p {margin:0; padding:10px 0;}
+#footer .credits {font-size:1.3em;}
+#footer a {color:#eee;}
+#footer a:hover {color:#fff; text-decoration:underline;}
+
+/* Comments */
+#comments {margin:20px 0 16px 0;}
+.comment {margin-bottom:10px; padding-bottom:6px; border-bottom:1px solid #555;}
+#content div.comment p.commenticon {margin:0 0 10px;}
+#content div.comment p {margin:0 0 4px;}
+#respond {margin:20px 0 0 0;}
+#respond p {margin:0 0 10px 0;}
+#respond input,#respond textarea {padding:4px; width:280px; background-color:#2a2a2a; color:#eee;}
+#respond textarea#comment {width:670px;}
+#respond input#submit {width:75px;}
+#respond input, #respond textarea {font: 100% "Trebuchet MS",Verdana,sans-serif; border: 1px solid #555;}
+
+/* Tags */
+blockquote {padding:5px 15px 2px 15px; margin:10px; border-left:4px solid #eee; color:#777;}
+blockquote p {padding:2px 0; margin:0; font-weight:bold;}
+code {padding:5px; font-size:1.2em; display:block; margin: 5px 0 16px 0; background-color:#2a2a2a; border:1px solid #555;}
+
+/* Links */
+a {color:#f29450; font-weight:400; text-decoration:none;}
+a:hover {color:#f2c7a8; text-decoration:none;}
+a img {border:0;}
+
+/* Float fix */
+.contenttext {overflow:hidden;}
+* html .contenttext {height:1px; overflow:visible;}
+* html .contenttext p {overflow:hidden; width:99%;}
+
+/* Various classes */
+.feedlink {padding:2px 0 2px 18px; margin:0 0 0 12px; font-size: 1.1em; background: url(rss.png) center left no-repeat;}
+.textright {text-align:right;}
+.textcenter {text-align:center;}
+.clear {visibility:hidden; clear:both;}
+.hide {display:none;}
+
+#sidebar ul.menubuttons li a.mainmenu_active {
+  color: #555;
+}
+
+h1,h2,h3,h4 	{margin-top:10px;margin-bottom:4px;}
+
+/*/////////////////////////////////////
+//news
+/////////////////////////////////////*/
+ul.newest1 {margin-top:30px;}
+li.newest1:first-child{width:100%;}
+.newest1 img {width:100px;}
+.nimage {width:120px;max-height:120px;position:relative;float:left; margin-right:10px;overflow:hidden;}
+.submenu tr td:first-child {width:100px;}
+li.newest1 {display:block;margin-bottom:20px;float:left;width:50%;}
+.ndate {display:block;position:relative;width:150px;margin-left:120px;border-bottom:#ddd 1px dotted;}
+.ndesc {display:block;}
+.nlink {display:block;}
+
+	/*images effect*/
+	P img, td img, .nimage img {margin:10px;border:#fff 3px solid;	/*p maybe add a class to only apply the effect to the content*/
+			-moz-box-shadow:    1px 4px 3px 4px #000;
+			-webkit-box-shadow: 1px 4px 3px 4px #000;
+			box-shadow:         1px 4px 3px 4px #000;}
+
+/*/////////////////////////////////////
+//prevnext
+/////////////////////////////////////*/
+#prevnext {width:750px;margin-right:50px;}
+.prev_topic {float:left;border-top:#cce 1px solid;}
+.prev_topic:before {content:"< ";}
+.next_topic {float:right;border-top:#cce 1px solid;}
+.next_topic:after {content:" >";}
+#prevnext:after {clear:both;}
+.level_2_222 {margin:10px;}
+
+	/*TOC Table of Contents CSS:*/
+	h1, h2, h3, h4, h5 { position: relative;}
+	a.toc-top-link 	{position: absolute;width: 15px;padding: 4px;margin-left:10px;background:#fff;border-bottom:1px #999 solid;border-right:1px #ddd solid;top: 0;font-size: 7pt;text-align: center;border-radius:5px;-webkit-border-radius:5px;-moz-border-radius:5px;}
+	#toc 		{margin-top:0px;margin-bottom:30px;padding:7px;padding-left: 30px;margin-left:10px;background:#444;width:300px;float:left;-moz-box-shadow: 1px 3px 2px 3px #ccc;-webkit-box-shadow: 1px 3px 2px 3px #ccc;box-shadow: 1px 3px 2px 3px #ccc;border-radius:2px;-moz-border-radius:2px;-webkit-border-radius:2px;}
+	ol 		{ list-style: upper-alpha;}
+	ol ol 		{ list-style: decimal;}
+	ol ol ol 	{ list-style: lower-roman;}
+	ol ol ol ol 	{ list-style: lower-alpha;}
+
+

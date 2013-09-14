@@ -1,0 +1,139 @@
+/*////////////////////////////////////////////////////////////////////////////
+//Global / cms.libe.net specific layout
+// here is an example of additional css optimizations for your template
+// in addition use the global settings for tinymce.css
+// tinymce.css please add Width for the content to body example: width:600px;
+////////////////////////////////////////////////////////////////////////////*/
+
+/*p global and tinymce add width:xxxpx; for tinymce.css*/
+	div,tr,table,#right ul,blockquote	{margin: 0;padding: 0;list-style:none;}
+	body, td 	{font-family:'arial'; font-size: 13px; color: #444;text-align: left;}/* add width:xxxpx; for tinymce.css*/
+	td		{vertical-align: top;}
+	a	{color:#557;}
+	a:hover	{color:#224;}
+	#right li 	{list-style: none;}
+	#center p, table,.feedback p {margin-left:5px;} /*p align remove #center for tinymce.css*/
+
+	/*headlines*/
+	h1,h2,h3,h4 	{color: #085faf;margin-top:10px;margin-bottom:4px;}
+	h1		{font-size: 18px;}
+	h2		{font-size: 16px;}
+	h3		{font-size: 14px;}
+	h4		{font-size: 13px;}
+	.h1head		{border-bottom:#cce 1px solid;font-size: 19px;}
+
+	/*images effect*/
+	P img, td img, .nimage img {margin:10px;border:#fff 3px solid;	/*p maybe add a class to only apply the effect to the content*/
+			-moz-box-shadow:    1px 4px 3px 4px #ccc;
+			-webkit-box-shadow: 1px 4px 3px 4px #ccc;
+			box-shadow:         1px 4px 3px 4px #ccc;}
+
+/*p Feedback line*/
+.feedback hr	{color:#ddd;background-color: #ddd;border: 0;width:80%;margin-top:10px;}
+
+/*TOC Table of Contents CSS:*/
+h1, h2, h3, h4, h5 { position: relative;}
+a.toc-top-link 	{position: absolute;width: 15px;padding: 4px;margin-left:10px;background:#fff;border-bottom:1px #999 solid;border-right:1px #ddd solid;top: 0;font-size: 7pt;text-align: center;border-radius:5px;-webkit-border-radius:5px;-moz-border-radius:5px;}
+#toc 		{margin-top:0px;margin-bottom:30px;padding:7px;padding-left: 30px;margin-left:10px;background:#eee;width:300px;float:left;-moz-box-shadow: 1px 3px 2px 3px #ccc;-webkit-box-shadow: 1px 3px 2px 3px #ccc;box-shadow: 1px 3px 2px 3px #ccc;border-radius:2px;-moz-border-radius:2px;-webkit-border-radius:2px;}
+ol 		{ list-style: upper-alpha;}
+ol ol 		{ list-style: decimal;}
+ol ol ol 	{ list-style: lower-roman;}
+ol ol ol ol 	{ list-style: lower-alpha;}
+
+/*news*/
+ul.newest1 	{margin-top:30px;}
+li.newest1:first-child{width:100%;}
+.newest1 img 	{width:100px;}
+.submenu tr td:first-child {width:100px;}
+.nimage 	{width:120px;max-height:120px;position:relative;float:left; margin-right:10px;overflow:hidden;}
+li.newest1 	{display:block;margin-bottom:20px;float:left;width:50%;}
+.ndate 		{display:block;position:relative;width:150px;margin-left:120px;border-bottom:#ddd 1px dotted;}
+.ndesc 		{display:block;}
+.nlink 		{display:block;}
+
+
+/*prevnext*/
+#prevnext 	{width:800px;margin-right:50px;margin-left:10px;}
+#prevnext a	{text-decoration:none;}
+.prev_topic 	{float:left;border-top:#cce 1px solid;}
+.prev_topic:before {content:"< ";}
+.next_topic 	{float:right;border-top:#cce 1px solid;}
+.next_topic:after {content:" >";}
+#prevnext:after {clear:both;}
+
+/*/////////////////////////////////////
+//beginn Template specific css
+/////////////////////////////////////*/
+body	{min-width: 40em; background:#bec7cf url(bg.png) top;
+	background-repeat:repeat-x;}
+
+#container{border-top: 1.5px solid #ddd;
+	min-height:400px;background-color: #fff;
+	margin: auto;width:940px;
+	-moz-box-shadow:    1px 4px 3px 4px #ccc;
+	-webkit-box-shadow: 1px 4px 3px 4px #ccc;
+	box-shadow:         1px 4px 3px 4px #ccc;
+	}
+
+/*/////////////////////////////////////
+//Headline Menu
+/////////////////////////////////////*/
+#headline-menu{width:940px;height:70px;color:#085faf;margin-top:2px;
+	margin-left: auto ;background: url('topimg.jpg') center;
+	margin-right: auto ;
+	-moz-box-shadow:    1px 1px 3px 4px #ccc;
+	-webkit-box-shadow: 1px 1px 3px 4px #ccc;
+	box-shadow:         1px 1px 3px 4px #ccc;
+	border-bottom: 1.5px solid #ccc;
+	}
+#headline-menu h1{color:#fff; font-size: 35px;margin-left:200px;padding-top:10px;text-shadow: #000 0px 5px 5px;}
+#headline-menu h2{color:#fff; font-size: 18px;margin-left:300px;margin-top:-10px;text-shadow: #000 0px 5px 5px;}
+.h1head	{border-bottom:#ddd 1px solid;}
+
+
+
+/*/////////////////////////////////////
+//Center
+/////////////////////////////////////*/
+#backlink{font-weight: bold;color:#fff;margin: auto;width:940px;height:16px;text-decoration: none;padding-left:5px;
+	-moz-box-shadow:    1px 1px 3px 4px #ccc;
+	-webkit-box-shadow: 1px 1px 3px 4px #ccc;
+	box-shadow:         1px 1px 3px 4px #ccc;
+background:#085faf;position:relative;border-bottom: 1.5px solid #ccc;border-top: 1.5px solid #777;}
+#backlink a{font-weight: bold;	text-decoration: none;color:#fff;}
+#center	{padding:20px;background: url('bgcenter.png');min-height:400px;width:700px;}
+#center a{color:#085faf;}
+#center a:hover{color:#444;}
+#center h1 a {color:#085faf;text-decoration: none;}
+#center p,table {margin:0px;margin-left:5px;}
+
+/*/////////////////////////////////////
+//right Menu
+/////////////////////////////////////*/
+#right 	h1 a {color:#085faf;text-decoration: none;}
+#right	{float:right;width:150px;height: auto;margin-left:23px;text-align:left;margin-top:4px;margin-right:0px;margin-bottom:10px;
+	overflow:hidden;font-size:13px;padding-top:0px;
+	-moz-box-shadow:    1px 1px 3px 4px #ccc;
+	-webkit-box-shadow: 1px 1px 3px 4px #ccc;
+	box-shadow:         1px 1px 3px 4px #ccc;}
+#right li{font-size:0.9em; border-bottom:dotted 1px #999;margin-left:2px;line-height:10px; padding:4px;margin:1px;}
+#right li a {padding:1px 1px 5px 5px;height:6px; border:none;}
+#right li li {border:none;}
+#right a{color:#555;height:13px;overflow:hidden;display:block;overflow:hidden;margin-top:5px;}
+#right a:hover{color: #555;  border-left:solid 3px #ccf;padding-left:2px;}
+.mainmenu_active{text-decoration:none;border-left:solid 3px #aaf;}
+.mainmenu_link {text-decoration:none;}
+#right li.current a.mainmenu_active{color: #555; border-left:solid 3px #bbe;padding-left:2px;}
+
+
+/*/////////////////////////////////////
+//footer
+/////////////////////////////////////*/
+#footer{clear: both;text-align:right;clear: both;
+	width:900px;
+	margin-left: auto ;
+	margin-right: auto ;height:10px;}
+#footer a {color:#fff;background:#888;filter:alpha(opacity=70);opacity: .7;-moz-opacity: .7;}
+#container:after {content: ".";display: block;height: 0;clear: both;visibility: hidden;}
+
+

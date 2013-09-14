@@ -1,0 +1,36 @@
+div,tr,table,p,blockquote {margin:0px; padding:0px;}
+body {width:610px;
+    color: #3A3A3A;
+    font: 76%/1.4em Tahoma,Arial,sans-serif;
+    line-height: 1.6em;
+    text-align: left;
+}
+a {
+    color: #166090;
+    font-weight: 700;
+    text-decoration: none;
+}
+h2, h3, h4 {
+    font-family: Georgia,serif;
+    font-weight: 400;
+}
+h2 {
+    font-size: 2em;
+    font-weight: 400;
+    letter-spacing: -1px;
+    margin: 8px 0 10px;
+    padding: 0;
+}
+h3 {
+    font-size: 1.6em;
+    font-weight: 400;
+    margin: 6px 0;
+    padding: 0;
+}
+
+P img, td img, .nimage img {margin:10px;border:#fff 3px solid;	
+	-moz-box-shadow:    1px 4px 3px 4px #342D00;
+	-webkit-box-shadow: 1px 4px 3px 4px #342D00;
+	box-shadow:         1px 4px 3px 4px #342D00;}
+
+p, table,.feedback p {margin-left:5px;}

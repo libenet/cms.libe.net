@@ -1,0 +1,15 @@
+	p, table,.feedback p {margin: 0;padding: 0;margin-left:5px;}
+
+/*news*/
+ul.newest1 	{margin-top:30px;}
+li.newest1:first-child{width:100%;}
+.newest1 img 	{width:100px;}
+.submenu tr td:first-child {width:100px;}
+.nimage 	{width:120px;height:90px;position:relative;float:left; margin-right:10px;}
+li.newest1 	{display:block;margin-bottom:20px;float:left;width:50%;}
+.ndate 		{display:block;position:relative;width:150px;margin-left:120px;}
+.ndesc 		{display:block;}
+.nlink 		{display:block;}
+
+
+

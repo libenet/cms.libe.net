@@ -1,0 +1,21 @@
+	p,tr,table,blockquote{margin: 0;padding: 0;list-style:none;}
+	body, td 	{font-family:sans-serif; font-size: 14px; color: #444;text-align: left;width:730px;}/* add width:xxxpx; for tinymce.css*/
+	td		{vertical-align: top;}
+	a	{color:#557;}
+	a:hover	{color:#224;}
+	li 	{list-style: none;}
+	p, table,.feedback p {margin-left:5px;} /*p align remove #center for tinymce.css*/
+
+	/*headlines*/
+	h1,h2,h3,h4 	{color: #668;margin-top:10px;margin-bottom:4px;}
+	h1		{font-size: 18px;}
+	h2		{font-size: 16px;}
+	h3		{font-size: 14px;}
+	h4		{font-size: 13px;}
+	.h1head		{border-bottom:#cce 1px solid;font-size: 19px;}
+
+	/*images effect*/
+	P img, td img, .nimage img {margin:10px;border:#fff 3px solid;	/*p maybe add a class to only apply the effect to the content*/
+			-moz-box-shadow:    1px 4px 3px 4px #ccc;
+			-webkit-box-shadow: 1px 4px 3px 4px #ccc;
+			box-shadow:         1px 4px 3px 4px #ccc;}

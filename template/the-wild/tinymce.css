@@ -1,0 +1,38 @@
+p {
+}
+
+p, blockquote, ul, ol {
+}
+
+div,tr,table,p,blockquote  {
+    margin: 0;
+    padding: 0;
+}
+a {
+    color: #FFFFFF;
+}
+h3 {
+    font-size: 0.8em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+body { width:550px;
+    color: #FFFFFF;background: #788CA5;
+    font: small Arial,Helvetica,sans-serif;
+}
+body, td 	{    color: #FFFFFF;background: #788CA5;
+    font: small Arial,Helvetica,sans-serif;text-align: left;}/* add width:xxxpx; for tinymce.css*/
+
+
+.h1head	{border-bottom:#cce 1px solid;font-size: 19px;}
+P img, td img, .nimage img {margin:10px;border:#fff 3px solid;	
+	-moz-box-shadow:    1px 4px 3px 4px #ccc;
+	-webkit-box-shadow: 1px 4px 3px 4px #ccc;
+	box-shadow:         1px 4px 3px 4px #ccc;}
+
+
+
+.nimage img {margin-top:0px;margin-left:0px;}
+
+	h1,h2,h3,h4 	{margin-top:10px;margin-bottom:4px;}

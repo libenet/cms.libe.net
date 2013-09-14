@@ -1,0 +1,2 @@
+RewriteRule ^(.*)-feedback-(.*).php$ $1.php?teilseite=$2 [L]
+RewriteRule ^(.*)-feedback-(.*)$ $1?teilseite=$2 [L]
